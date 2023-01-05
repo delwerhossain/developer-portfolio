@@ -210,14 +210,23 @@ td {
     margin-bottom: 30px;
 
 }
+/* section resueme part  */
+.resume-bg{
+    background-color: bisque;
+    border-radius: 15px;
 
+}
 .title-dis {
+    padding-top: 40px;
     text-align: center;
-    font-weight: 1000; margin-bottom: 100px; font-size: 34px;
+    font-weight: 1000;
+    margin-bottom: 60px;
+    font-size: 34px;
 }
 
 .resume-main {
-    display: flex;  background: #FFF8F3;
+    display: flex;
+    background: #FFF8F3;
 
 }
 
@@ -225,7 +234,10 @@ td {
     margin-left: 40px;
 }
 
-.resume-primary { border-bottom: 1px solid  #D1D1D1;}
+.resume-primary {
+    border-bottom: 1px solid #D1D1D1;
+    padding-top: 20px;
+}
 
 .pera-1st {
     font-weight: 700;
@@ -236,9 +248,13 @@ td {
 
 .pera-second {
     font-size: 16px;
-    margin-bottom: 12px;  padding-right: 15px; 
+    margin-bottom: 12px;
+    padding-right: 15px;
 }
 
-.third-pera { font-size: 14px; padding-right: 20px; padding-bottom: 20px;
-    color:#757575;
+.third-pera {
+    font-size: 14px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: #757575;
 }
