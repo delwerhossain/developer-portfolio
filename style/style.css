@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-between;
+}
+.primary-font{
+    color: #FD6E0A;
+}
+header{
+    background: #FFF8F3;
+    /* position: absolute; */
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+nav{
+    display: flex;
+    padding: 25px 180px;
+}
+    .nav-title{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    /* display: flex; */
+    list-style: none;
+    margin: 20px;
+}
+
+.btn-primary{
+    /* position: absolute; */
+    /* width: 150px; */
+    height: 64px;
+    /* left: 1220px; */
+    /* top: 50px; */
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    padding: 18px 35px;
+
+}
+
+                /* nav banner */
+
+.banner{
+    display: flex;
+    margin: 0px 200px;
+    align-items: center;
+}
+.banner-title{
+
+    font-size: 65px ;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+.banner-title-sub{
+    color: #474747;
+    font-size: 45px;
+    padding-bottom: 15px;
+    font-weight: 600;
+
+
+}
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+    padding-bottom: 30px;
+}
+
+        /* main */
+
+main{
+    max-width:  1140px;
+    margin: 0px auto;
+}
+            /*  about section */
+
+.about{
+    /* margin: 131px 156px; */
+    margin-top: 130px;
+    padding: 131px 156px;    
+    background: #FFF8F3;
+    border-radius: 10px;
+    text-align: center;
+}
+.about-title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+.about-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: #757575;
+
+}
+
+/* table */
+.table{
+    /* display: flex; */
+    margin-top: 40px;
+    margin-left: 5px;
+    /* margin-bottom: ; */
+    /* margin: 0px auto; */
+    /* text-align: center;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px; */
+
+}
+th {
+    color: #757575;
+    padding-left: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+td{
+    padding-left: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+        /* what-i-do  section */
+.what-i-do{
+    border: 1px solid black;
+}
+.what-info{
+    margin-top: 130px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 0 200px;
+}
+.what-box{
+    margin-bottom: 130px;
+    display: flex;
+}
+.js-box , .react-box , .nodejs-box{
+    /* border: 1px solid black;  */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 0px 20px;
+}
